@@ -1,0 +1,14 @@
+1) These SQL commands are mainly categorized into four categories as:
+DDL – Data Definition Language
+DQl – Data Query Language
+DML – Data Manipulation Language
+DCL – Data Control Language
+
+DAL is not supported by SQL.
+
+2) A foreign key is a key used to link two tables together, this is sometimes also
+called as a referencing key. Duplicate values are allowedin a column which is
+declared as a foreign key. It may or maynot uniquely identify rows in a table.
+Hence, it does not enforce uniqueness.
+
+3) Primary keys don't allow for NULL values.

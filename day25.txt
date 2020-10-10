@@ -1,0 +1,28 @@
+1.SQL Server contains the following 7 types of constraints:
+	-Not Null Constraint.
+	-Check Constraint.
+	-Default Constraint.
+	-Unique Constraint.
+	-Primary Constraint.
+	-Foreign Constraint.
+	-Index Constraint.
+Therefore there are 7 types of constraints present in SQL Server.
+
+
+2. CASECADE
+A foreign key with cascade delete means that if a record in the parent table 
+is deleted, then the corresponding records in the child table will automatically 
+be deleted. This is called a cascade delete in SQL Server.
+   NO ACTION
+It means that nothing will happen when you delete from your Subject table
+to the Topic table. ... NO ACTION - The SQL Server Database Engine raises an 
+error and the delete action on the row in the parent table is rolled back.
+   SET NULL
+It is used in conjunction with ON DELETE or ON UPDATE. It means that the 
+child data is set to NULL when the parent data is deleted or updated.
+
+d) All of the above
+
+
+3. A Foreign key in one table points to a candidate key(primary key) in another
+table.

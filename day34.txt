@@ -1,0 +1,13 @@
+1. Options b,c and d are TRUE for ACID properties in a database
+
+2. d. SQL functions are not used to place an order
+
+3. There are three case manipulation functions in SQL, namely:
+LOWER: This function returns the string in lowercase. It takes a string as an 
+argument and returns it by converting it into lower case. Syntax:  LOWER(‘string’)
+UPPER: This function returns the string in uppercase. It takes a string as an
+argument and returns it by converting it into uppercase. Syntax: UPPER(‘string’)
+INITCAP: This function returns the string with the first letter in uppercase 
+and rest of the letters in lowercase. Syntax: INITCAP(‘string’)
+
+Therefore, d) all of the above are case manipulation fuctions in SQL.

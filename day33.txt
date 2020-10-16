@@ -1,0 +1,28 @@
+1.TYPES OF DATABASE
+HIERARCHIAL DBMS
+A hierarchical database model is a data model in which the data are organized 
+into a tree-like structure. The data are stored as records which are connected 
+to one another through links. A record is a collection of fields, with each field
+containing only one value.
+
+RELATIONAL DBMS
+A relational database management system (RDBMS or just RDB) is a common 
+type of database whose data is stored in tables. You'll find that most databases
+used in businesses these days are relational databases, as opposed to a flat
+file or hierarchical database.
+
+NETWORK DBMS
+Network database management systems (Network DBMSs) are based on a network data 
+model that allows each record to have multiple parents and multiple child records.
+A network database allows flexible relationship model between entities.
+The result is a faster data access, search, and navigation.
+
+THERE IS NO LOOP DATABSE.
+
+2. All the above are types of inner joins(THETA, NATURAL, EQUIJOIN).
+
+3. Although TRUNCATE TABLE is similar to DELETE , it is classified as a DDL 
+statement rather than a DML statement. Truncate operations drop and re-create 
+the table, which is much faster than deleting rows one by one, particularly 
+for large tables. TRUNCATE cannot be executed with a WHERE clause means 
+that all records will be removed from the TRUNCATE / statement. 

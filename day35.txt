@@ -1,0 +1,2 @@
+1. More than 1 options are correct
+2. Both the relational as well as the network data models are availble for DBMS.

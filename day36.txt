@@ -1,0 +1,6 @@
+1. In database design, a composite key is a candidate key that consists of two 
+or more attributes (table columns) that together uniquely identify an entity 
+occurrence (table row). A compound key is a composite key for which each 
+attribute that makes up the key is a simple (foreign) key in its own right.
+
+2. The Union command is used to combine result sets from more than 1 query

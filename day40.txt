@@ -1,0 +1,6 @@
+Q1. d) PL/SQL is used for manipulating data
+
+Q2. d) CASE('string') is not a valid syntax for different types of case 
+manipulation.
+
+Q3. d)All of the above

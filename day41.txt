@@ -1,0 +1,7 @@
+Q1. SELECT VERSION(); returns the current version of the MySQL Database.
+
+Q2. Recursive stored procedure refers to a stored procedure which calls by
+itself until it reaches some boundary condition. This recursive function or
+procedure helps the programmers to use the same set of code n number of times.
+
+Q3. d. INTERSECT

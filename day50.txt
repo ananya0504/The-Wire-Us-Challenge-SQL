@@ -1,0 +1,35 @@
+Q1. In terms of performance, when dealing with small partition sizes—as
+many as a few hundred rows per partition—you're better off with a 
+set-based solution. However, when dealing with large partitions—more
+than 500 rows—you're better off with a cursor-based solution.
+
+Set based queries are (usually) faster because:
+They have more information for the query optimizer to optimize
+They can batch reads from disk
+There's less logging involved for rollbacks, transaction logs, etc.
+Less locks are taken, which decreases overhead
+Set based logic is the focus of RDBMSs, so they've been heavily
+optimized for it (often, at the expense of procedural performance)
+
+
+Q2. T-SQL means Transact-SQL, a propriety Language by Microsoft. 
+Microsoft and Sybase released version 1.0 in 1989.
+
+
+Q3. Cursor lock types - Cursors allow row-by-row processing of the resultsets.
+They are a database object which is used to retrieve data from a resultset one row at a time.
+
+Following are the three lock types of cursor:
+1. READ ONLY
+2. SCROLL LOCK
+3. OPTIMISTIC
+
+Each time you fetch a row from the cursor, it results in a network roundtrip.
+Cursors are also costly because they require more resources and temporary storage.
+
+1. READ ONLY:It prevents any updates to the table.
+
+2. SCROLL LOCK:It allows you to make changes to the table.
+
+3. OPTIMISTIC: It checks if any changes in the table record since the rows are fetched before updating.
+If there is no change, then the cursor can update.

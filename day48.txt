@@ -1,0 +1,6 @@
+Q1. View Syntax- CREATE VIEW view_name AS SELECT column1, column2, ...
+FROM table_name WHERE condition;
+
+Q2. MAX() is not a scalar function
+
+Q3. SELECT LAST(column_name) FROM table_name;

@@ -1,0 +1,8 @@
+Q1. MID() is not an aggregate function
+
+Q2. UCASE() converts the value of a field to uppercase
+
+Q3. The SQL FAST_FORWARD Cursor is one of the fastest cursors we have.
+This SQL FAST_FORWARD Cursor is a combination of FORWARD_ONLY, and 
+READ_ONLY. It means the FAST_FORWARD cursor will only move from the 
+first row to last and does not support the scrolling backward.

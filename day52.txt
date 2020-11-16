@@ -1,0 +1,5 @@
+Q1. float	-1.79E + 308	1.79E + 308
+
+Q2. Maximum length of 2E + 31 characters(SQL Server 2005 only).
+
+Q3. int		-2,147,483,648	2,147,483,647

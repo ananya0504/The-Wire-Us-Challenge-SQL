@@ -1,0 +1,4 @@
+Q. The innermost query gives us the Pids of all the parts which are not blue in colour.
+The middle query gives us the sids of all the suppliers who do supply blue part.
+(Not Only blue, but blue parts maybe along with other colours). The outermost query
+gives us the names of all the suppliers who do not supply any blue parts. 
